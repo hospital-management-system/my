@@ -60,7 +60,7 @@ body {
     color: #eaebed;
     border-color: #eaebed;
 }
-.navtop li.active1 a{
+.navtop li.active3 a{
     border-color: yellow ;
     color: yellow;
     }
@@ -120,7 +120,7 @@ body {
         <nav class="navtop">
             <div>
                 <h1>Hospital Management System</h1>
-                <li class="active1"><a href="adm.login.php">Admin</a></li>
+                <li class="active1"><a href="index.php">Admin</a></li>
                 <li class="active2"><a href="doc.login.php">Docter</a></li>
                 <li class="active3"><a href="rec.login.php">Receptor</a></li>
                 <li class="active4"><a href="bill.login.php">Biller</a></li>
@@ -130,7 +130,7 @@ body {
         
         <div class="login">
             <h1>Login</h1>
-            <form action="includes/login.admin.php" method="post">
+            <form action="includes/login.rec.php" method="post">
                 <label for="username">
                     <i class="fas fa-user"></i>
                 </label>
